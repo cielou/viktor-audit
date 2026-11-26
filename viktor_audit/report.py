@@ -104,7 +104,7 @@ def render(results, summary, target, lang):
         for r in wins:
             lines.append(f"- **{names[r.id]}:** {QUICK_WIN_FIX.get(r.id, '')}")
     else:
-        lines.append(s["no_red_flags"])
+        lines.append(s["no_quick_wins"])
     lines.append("")
     lines.append("---")
     lines.append("")

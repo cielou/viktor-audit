@@ -34,6 +34,7 @@ STRINGS = {
         "verdict_risk": "High risk",
         "verdict_risk_line": "Demand proof or walk away.",
         "no_red_flags": "No red flags found.",
+        "no_quick_wins": "No quick wins — nothing failed, so there's nothing to fix.",
         "method_note": "Method: public data only. No login, no API key, no ad account access. A check marked NOT VERIFIED means the data could not be retrieved — it is not a pass and not a fail.",
         "evidence": "Evidence",
         "check_names": {
@@ -95,6 +96,7 @@ STRINGS = {
         "verdict_risk": "高风险",
         "verdict_risk_line": "要求对方拿出证据，否则走开。",
         "no_red_flags": "没有发现红旗。",
+        "no_quick_wins": "没有速赢项——没有未通过的检查，无需修复。",
         "method_note": "方法：只用公开数据。不登录、不用 API key、不进广告账户。标为「未验证」表示数据取不到——既不是通过，也不是未通过。",
         "evidence": "证据",
         "check_names": {
@@ -156,6 +158,7 @@ STRINGS = {
         "verdict_risk": "Risque élevé",
         "verdict_risk_line": "Exigez des preuves, sinon passez votre chemin.",
         "no_red_flags": "Aucun signal d'alarme détecté.",
+        "no_quick_wins": "Aucun gain rapide — rien n'a échoué, donc rien à corriger.",
         "method_note": "Méthode : données publiques uniquement. Aucune connexion, aucune clé API, aucun accès au compte publicitaire. « NON VÉRIFIÉ » signifie que la donnée n'a pas pu être récupérée — ce n'est ni une réussite ni un échec.",
         "evidence": "Preuve",
         "check_names": {
@@ -217,6 +220,7 @@ STRINGS = {
         "verdict_risk": "Riesgo alto",
         "verdict_risk_line": "Exige pruebas o busca otra opción.",
         "no_red_flags": "No se detectaron señales de alerta.",
+        "no_quick_wins": "No hay victorias rápidas: nada falló, así que no hay nada que corregir.",
         "method_note": "Método: solo datos públicos. Sin inicio de sesión, sin clave API, sin acceso a la cuenta publicitaria. «SIN VERIFICAR» significa que el dato no se pudo obtener — no es un aprobado ni un reprobado.",
         "evidence": "Evidencia",
         "check_names": {
