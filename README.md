@@ -25,13 +25,15 @@ Verdict bands: **80–100 Solid** · **50–79 Ask first** · **0–49 High risk
 
 ## Install
 
+Requires Python 3.10+ and Git. No other dependencies.
+
 ```bash
 git clone https://github.com/cielou/viktor-audit.git
 cd viktor-audit
 python3 -m viktor_audit "https://some-agency.com"
 ```
 
-Requires Python 3.10+. No dependencies.
+On Windows, use `python` instead of `python3` (or the `py` launcher: `py -m viktor_audit ...`).
 
 ## Usage
 
@@ -48,6 +50,8 @@ python3 -m viktor_audit "https://some-agency.com" --lang fr
 # Optional: lab LCP reading on the performance check
 python3 -m viktor_audit "https://some-agency.com" --pagespeed-key YOUR_KEY
 ```
+
+On Windows, legacy CMD garbles non-English output — run `chcp 65001` first, then `--lang zh` (or fr/es).
 
 ## How it works
 
