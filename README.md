@@ -20,7 +20,7 @@ Verdict bands: **80–100 Solid** · **50–79 Ask first** · **0–49 High risk
 ## Install
 
 ```bash
-git clone https://github.com/viktorcompany/viktor-audit.git
+git clone https://github.com/cielou/viktor-audit.git
 cd viktor-audit
 python3 -m viktor_audit "https://some-agency.com"
 ```
