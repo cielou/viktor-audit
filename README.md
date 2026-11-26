@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://viktorcompany.com/og.jpg" width="480" alt="Viktor & Company">
+  <img src="viktor-audit-readme-hero.png" width="480" alt="Viktor & Company">
 </p>
 
 # VIKTOR Audit
