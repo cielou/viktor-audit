@@ -55,11 +55,18 @@ On Windows, legacy CMD garbles non-English output — run `chcp 65001` first, th
 
 ## How it works
 
-Each check is **pass / fail / not verified**. Missing data is reported as NOT VERIFIED — never silently skipped, never guessed, never treated as a pass or a fail. The report always shows the denominator ("16/18 checks scored"). Four checks need a browser session or a live AI (AI citation, Ad Library, reviews, social activity): the CLI marks them NOT VERIFIED with the links to check manually, and the `SKILL.md` lets any AI agent complete them.
+Each check is **pass / fail / not verified**. Missing data is reported as NOT VERIFIED — never silently skipped, never guessed, never treated as a pass or a fail. The report always shows the denominator ("16/18 checks scored"). Four checks need a browser session or a live AI (AI citation, Ad Library, reviews, social activity): the CLI marks them NOT VERIFIED with the links to check manually, and the `skills/viktor-audit/SKILL.md` skill lets any AI agent complete them.
 
 ## AI skill
 
-`SKILL.md` in this repo lets Claude Code, Codex, Cursor, Gemini CLI, and other agents run the same audit: the agent runs the CLI, fills in the four browser/AI checks with its own tools, and produces the report in the requested language.
+`skills/viktor-audit/SKILL.md` in this repo lets Claude Code, Codex, Cursor, Gemini CLI, and other agents run the same audit: the agent runs the CLI, fills in the four browser/AI checks with its own tools, and produces the report in the requested language.
+
+Install it as a Claude Code plugin:
+
+```
+/plugin marketplace add cielou/viktor-audit
+/plugin install viktor-audit
+```
 
 ## White-label
 
