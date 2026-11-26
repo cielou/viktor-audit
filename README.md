@@ -8,6 +8,8 @@ python3 -m viktor_audit "https://some-agency.com"
 
 No login. No API key. No signup. Standard-library-only Python.
 
+**Try it in your browser — no install:** [viktorcompany.com/audit-tool](https://viktorcompany.com/audit-tool/) — paste any agency's URL and get the scored report.
+
 ## What it does
 
 You paste a marketing agency's URL or name. VIKTOR Audit checks what anyone can see without access — its AI search visibility and its transparency — and produces a scored Markdown report:
