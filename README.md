@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://viktorcompany.com/og.jpg" width="480" alt="Viktor & Company">
+</p>
+
 # VIKTOR Audit
 
 **Audit any marketing agency from its public footprint — paste a URL, get a scored report.**
@@ -60,6 +64,12 @@ Reports are Markdown. Re-render them with your own brand (company name, logo, ac
 ## What this is not
 
 This is the **outside view**. It cannot see inside an ad account — spend, fees, vendor contracts, tracking accuracy. That is what a full independent audit does: [viktorcompany.com/audit](https://viktorcompany.com/audit).
+
+## About Viktor & Company
+
+VIKTOR & COMPANY is a Vancouver-based independent marketing consultancy for DTC and consumer brands — paid social, influencer and creator campaigns, SEO and AI-search (GEO) visibility, and North America market entry. Founded in 2020; every engagement is led personally by the founder, never handed to juniors.
+
+The firm only audits — it never sells the execution for the work it audits, and it holds no stake in your ad account. The $1K Growth Audit is the paid version of this tool: hours inside the actual account, with the numbers recomputed from raw data: [viktorcompany.com/audit](https://viktorcompany.com/audit).
 
 ## License
 
