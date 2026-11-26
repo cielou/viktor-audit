@@ -7,7 +7,7 @@
 **Audit any marketing agency from its public footprint — paste a URL, get a scored report.**
 
 ```bash
-python3 -m viktor_audit "https://some-agency.com"
+python -m viktor_audit "https://some-agency.com"
 ```
 
 No login. No API key. No signup. Standard-library-only Python.
@@ -30,25 +30,25 @@ Requires Python 3.10+ and Git. No other dependencies.
 ```bash
 git clone https://github.com/cielou/viktor-audit.git
 cd viktor-audit
-python3 -m viktor_audit "https://some-agency.com"
+python -m viktor_audit "https://some-agency.com"
 ```
 
-On Windows, use `python` instead of `python3` (or the `py` launcher: `py -m viktor_audit ...`).
+On macOS/Linux, use `python3` instead of `python`.
 
 ## Usage
 
 ```bash
 # English report (default), printed to stdout
-python3 -m viktor_audit "https://some-agency.com"
+python -m viktor_audit "https://some-agency.com"
 
 # Another language, written to a file
-python3 -m viktor_audit "Some Agency" --lang zh --out report.md
+python -m viktor_audit "Some Agency" --lang zh --out report.md
 
 # All languages: en (default), zh, fr, es
-python3 -m viktor_audit "https://some-agency.com" --lang fr
+python -m viktor_audit "https://some-agency.com" --lang fr
 
 # Optional: lab LCP reading on the performance check
-python3 -m viktor_audit "https://some-agency.com" --pagespeed-key YOUR_KEY
+python -m viktor_audit "https://some-agency.com" --pagespeed-key YOUR_KEY
 ```
 
 On Windows, legacy CMD garbles non-English output — run `chcp 65001` first, then `--lang zh` (or fr/es).
